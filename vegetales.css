@@ -1,0 +1,117 @@
+:root {
+  --bg: #f0f8ef;
+  --bg-strong: #e0f0dc;
+  --primary: #287747;
+  --primary-2: #3c9657;
+  --secondary: #d89038;
+  --secondary-2: #efb357;
+  --success: #34834b;
+  --semaforo-red: #5b9e57;
+  --semaforo-yellow: #e8bc54;
+  --semaforo-green: #287747;
+  --text: #20382a;
+  --muted: #536959;
+  --shadow: 0 24px 60px rgba(40, 119, 71, 0.18);
+  --shadow-soft: 0 14px 30px rgba(32, 56, 42, 0.12);
+}
+
+body {
+  background: linear-gradient(180deg, #f3faf0 0%, #fff8e9 100%);
+}
+
+.brand-mark,
+.hero-image-overlay .label {
+  background: linear-gradient(145deg, #287747, #66a85d 58%, #e8bc54);
+}
+
+.hero-bg {
+  background:
+    radial-gradient(circle at top left, rgba(91, 158, 87, 0.18), transparent 30%),
+    radial-gradient(circle at center, rgba(232, 188, 84, 0.2), transparent 25%),
+    radial-gradient(circle at bottom right, rgba(40, 119, 71, 0.18), transparent 35%),
+    linear-gradient(135deg, #fff, #e0f0dc);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #287747, #3c9657 65%, #85b96b);
+}
+
+.slide-overlay {
+  background: linear-gradient(120deg, rgba(40, 119, 71, 0.58), rgba(91, 158, 87, 0.36));
+}
+
+.solidario-panel {
+  background: linear-gradient(135deg, #e5f2df, #fff2d9);
+  border-color: rgba(40, 119, 71, 0.2);
+}
+
+.solidario-panel h2 {
+  color: var(--primary);
+}
+
+.seo-box {
+  background: linear-gradient(135deg, rgba(91, 158, 87, 0.12), rgba(232, 188, 84, 0.16));
+}
+
+.banner-box {
+  background: linear-gradient(135deg, var(--primary-2), #79a858);
+}
+
+.contact-section {
+  scroll-margin-top: 100px;
+}
+
+.contact-methods {
+  display: grid;
+  gap: 16px;
+}
+
+.contact-methods h3 {
+  margin-bottom: 4px;
+}
+
+.contact-method {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: #f7fbf5;
+}
+
+.contact-method > i {
+  display: grid;
+  flex: 0 0 42px;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border-radius: 12px;
+  background: var(--bg-strong);
+  color: var(--primary);
+}
+
+.contact-method strong,
+.contact-method small {
+  display: block;
+}
+
+.contact-method strong {
+  color: var(--text);
+}
+
+.contact-method small {
+  margin-top: 4px;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+
+.contact-whatsapp {
+  gap: 10px;
+}
+
+.contact-copy a:not(.btn) {
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

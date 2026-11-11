@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Guía práctica de alimentos vegetales saludables: verduras, frutas, legumbres, cereales integrales, frutos secos y consejos para comer variado."
+    />
+    <meta
+      name="keywords"
+      content="alimentos vegetales saludables, alimentación vegetal, verduras, frutas, legumbres, cereales integrales, nutrición saludable"
+    />
+    <meta name="theme-color" content="#287747" />
+    <title>Guía de alimentos vegetales saludables | Verde Vital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="vegetales.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand" aria-label="Inicio Verde Vital">
+          <div class="brand-mark">V</div>
+          <div>
+            <strong>Verde Vital</strong>
+            <span>Guía de alimentación</span>
+          </div>
+        </a>
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="index.html">Inicio</a>
+          <a href="#guia">Guía</a>
+          <a href="#ideas">Ideas prácticas</a>
+          <a href="#faq">Preguntas</a>
+          <a href="#contacto">Acerca de</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Abrir menú">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <span class="eyebrow">Alimentos vegetales • información clara</span>
+            <h1>Alimentos vegetales saludables: una guía sencilla para comer variado.</h1>
+            <p>
+              Conoce los principales grupos de alimentos vegetales, qué aportan a
+              tus comidas y cómo combinarlos con ideas sencillas para el día a día.
+              Comer más plantas puede ser práctico, sabroso y diverso.
+            </p>
+            <div class="hero-actions">
+              <a href="#guia" class="btn btn-primary">Ver guía completa</a>
+              <a href="#ideas" class="btn btn-secondary">Explorar ideas</a>
+            </div>
+            <ul class="hero-pills">
+              <li><a href="#verduras">Verduras y frutas</a></li>
+              <li><a href="#legumbres">Legumbres</a></li>
+              <li><a href="#cereales">Cereales integrales</a></li>
+              <li><a href="#frutos-secos">Frutos secos y semillas</a></li>
+            </ul>
+          </div>
+
+          <div class="hero-card hero-image-card reveal">
+            <img
+              src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&amp;fit=crop&amp;w=1000&amp;q=85"
+              alt="Ensalada colorida preparada con vegetales frescos"
+            />
+            <div class="hero-image-overlay">
+              <span class="label">Más color en tu plato</span>
+              <strong>Verde Vital</strong>
+              <small>Ideas claras para disfrutar alimentos de origen vegetal.</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slider-section reveal">
+        <div class="container">
+          <div class="section-heading center">
+            <span class="eyebrow">Variedad en cada comida</span>
+            <h2>Descubre ingredientes vegetales para todos los días</h2>
+          </div>
+          <div class="carousel" aria-label="Carrusel de alimentos vegetales">
+            <div class="slides">
+              <article class="slide active">
+                <img
+                  src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&amp;fit=crop&amp;w=1600&amp;q=85"
+                  alt="Plato de ensalada con vegetales variados"
+                />
+                <div class="slide-overlay">
+                  <span>Verduras y frutas</span>
+                  <h3>Combina colores, sabores y texturas en tus platos.</h3>
+                </div>
+              </article>
+              <article class="slide">
+                <img
+                  src="https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?auto=format&amp;fit=crop&amp;w=1600&amp;q=85"
+                  alt="Selección de frutas frescas de varios colores"
+                />
+                <div class="slide-overlay">
+                  <span>Alimentos frescos</span>
+                  <h3>Elige frutas y verduras que disfrutes y tengas a mano.</h3>
+                </div>
+              </article>
+              <article class="slide">
+                <img
+                  src="https://images.unsplash.com/photo-1517673132405-a56a62b18caf?auto=format&amp;fit=crop&amp;w=1600&amp;q=85"
+                  alt="Garbanzos y otros ingredientes vegetales para cocinar"
+                />
+                <div class="slide-overlay">
+                  <span>Legumbres y granos</span>
+                  <h3>Arma comidas completas con ingredientes sencillos.</h3>
+                </div>
+              </article>
+            </div>
+            <button class="carousel-btn prev" aria-label="Diapositiva anterior">‹</button>
+            <button class="carousel-btn next" aria-label="Diapositiva siguiente">›</button>
+            <div class="carousel-dots" aria-label="Indicadores del carrusel">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+          <p class="image-credit">Fotografías de <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a>.</p>
+        </div>
+      </section>
+
+      <section id="guia" class="content-section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Guía completa</span>
+            <h2>Grupos de alimentos vegetales y cómo disfrutarlos</h2>
+          </div>
+
+          <div class="seo-box reveal">
+            <p>
+              Una alimentación con más alimentos vegetales puede incluir verduras,
+              frutas, legumbres, cereales integrales, frutos secos y semillas.
+              Cada grupo ofrece sabores y nutrientes diferentes; variar las opciones
+              ayuda a construir comidas agradables y equilibradas. No existe un único
+              menú adecuado para todas las personas: las necesidades pueden cambiar
+              según la edad, la salud, la cultura y el estilo de vida.
+            </p>
+          </div>
+
+          <div class="info-grid">
+            <article id="verduras" class="info-card reveal">
+              <h3>Verduras y hortalizas</h3>
+              <p>
+                Brócoli, espinaca, tomate, zanahoria, calabaza y muchas otras
+                verduras aportan fibra y una variedad de vitaminas y minerales.
+                Puedes servirlas crudas, asadas, salteadas, al vapor o en sopas.
+                Alternar colores y preparaciones da más variedad a las comidas.
+              </p>
+            </article>
+
+            <article id="frutas" class="info-card reveal">
+              <h3>Frutas</h3>
+              <p>
+                Las frutas enteras son una opción práctica para desayunos, meriendas
+                o postres. Prueba las que estén disponibles en temporada y combina
+                diferentes tipos. Cuando sea posible, elige la fruta entera en lugar
+                de bebidas azucaradas o jugos como sustituto habitual.
+              </p>
+            </article>
+
+            <article id="legumbres" class="info-card reveal">
+              <h3>Legumbres</h3>
+              <p>
+                Fríjoles, lentejas, garbanzos y arvejas son ingredientes versátiles
+                que aportan proteína vegetal y fibra. Úsalos en sopas, guisos,
+                ensaladas, untables o hamburguesas caseras. Las opciones enlatadas
+                también sirven; enjuagarlas puede ayudar a retirar parte del sodio.
+              </p>
+            </article>
+          </div>
+
+          <div class="article-layout">
+            <article class="article-panel reveal">
+              <h3>Cómo armar una comida vegetal variada</h3>
+              <p>
+                Empieza con ingredientes que te gusten: añade verduras o frutas,
+                elige una fuente de proteína vegetal como legumbres o tofu y
+                acompaña con un cereal, tubérculo u otro alimento que dé energía.
+                Puedes completar el plato con semillas, frutos secos o un aderezo
+                sencillo para sumar sabor y textura.
+              </p>
+              <p>
+                No es necesario que cada comida sea complicada. Una sopa de lentejas
+                con verduras, arroz integral con fríjoles o avena con fruta son
+                ejemplos fáciles de adaptar a tus preferencias y a los ingredientes
+                disponibles.
+              </p>
+              <div class="quote-box">
+                <strong>Recomendación práctica:</strong>
+                <span>La variedad y la constancia importan más que buscar un alimento único que prometa resolverlo todo.</span>
+              </div>
+            </article>
+
+            <aside class="side-panel reveal">
+              <h3>Temas clave</h3>
+              <ul>
+                <li>Verduras y hortalizas</li>
+                <li>Frutas enteras</li>
+                <li>Fríjoles, lentejas y garbanzos</li>
+                <li>Cereales integrales</li>
+                <li>Frutos secos y semillas</li>
+                <li>Proteínas de origen vegetal</li>
+                <li>Ideas para planear comidas</li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section id="ideas" class="solidario-section">
+        <div class="container">
+          <div class="solidario-panel reveal">
+            <span class="eyebrow">Orientación y consejos prácticos</span>
+            <h2>Ideas sencillas para incorporar más plantas</h2>
+            <p>
+              Planear unas pocas comidas, cocinar una tanda de legumbres y dejar
+              verduras lavadas o picadas puede facilitar la semana. También puedes
+              usar verduras congeladas y legumbres en conserva cuando te resulten
+              más cómodas.
+            </p>
+            <p>
+              Cambia una parte de tus preparaciones habituales: agrega fríjoles a
+              una ensalada, sirve fruta con el desayuno o incorpora verduras a una
+              sopa, una salsa o un plato de pasta. Ajusta las recetas a tus gustos,
+              presupuesto y costumbres.
+            </p>
+            <p>
+              Si tienes una condición de salud, alergias, necesidades nutricionales
+              específicas o dudas sobre suplementos, consulta con un profesional de
+              la salud o nutrición. Esta guía ofrece información general y no
+              sustituye una valoración personalizada.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-band">
+        <div class="container feature-grid">
+          <div class="feature reveal">
+            <i class="fa-solid fa-carrot"></i>
+            <h3>Color</h3>
+            <p>Prueba verduras y frutas de distintos colores y preparaciones.</p>
+          </div>
+          <div class="feature reveal">
+            <i class="fa-solid fa-seedling"></i>
+            <h3>Fibra</h3>
+            <p>Legumbres, frutas, verduras y granos integrales aportan fibra.</p>
+          </div>
+          <div class="feature reveal">
+            <i class="fa-solid fa-bowl-food"></i>
+            <h3>Proteína vegetal</h3>
+            <p>Incluye opciones como fríjoles, lentejas, garbanzos, tofu o nueces.</p>
+          </div>
+          <div class="feature reveal">
+            <i class="fa-solid fa-utensils"></i>
+            <h3>Variedad</h3>
+            <p>Combina grupos de alimentos y recetas según tus preferencias.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="cereales" class="rules-section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Detalle práctico</span>
+            <h2>Alimentos vegetales para tus comidas</h2>
+          </div>
+
+          <div class="rules-grid">
+            <article class="rule-card reveal">
+              <h3>1. Cereales integrales</h3>
+              <p>
+                Avena, arroz integral, maíz, cebada y pan integral pueden ser parte
+                de comidas variadas. Revisa las etiquetas y elige opciones con
+                ingredientes sencillos cuando estén disponibles.
+              </p>
+            </article>
+            <article class="rule-card reveal">
+              <h3>2. Frutos secos y semillas</h3>
+              <p>
+                Maní, nueces, ajonjolí, chía y semillas de calabaza aportan sabor y
+                textura. Añádelos a ensaladas, avena o preparaciones caseras y ten en
+                cuenta las alergias y las porciones que se adapten a ti.
+              </p>
+            </article>
+            <article class="rule-card reveal">
+              <h3>3. Fuentes de proteína vegetal</h3>
+              <p>
+                Las legumbres, el tofu, el tempeh, algunas bebidas de soya y los
+                frutos secos pueden contribuir a la proteína de la alimentación.
+                Las necesidades individuales varían.
+              </p>
+            </article>
+            <article id="frutos-secos" class="rule-card reveal">
+              <h3>4. Grasas de origen vegetal</h3>
+              <p>
+                Aguacate, aceitunas, semillas y algunos aceites vegetales aportan
+                grasas. Úsalos para dar sabor y complementar las comidas de acuerdo
+                con tus necesidades.
+              </p>
+            </article>
+            <article class="rule-card reveal">
+              <h3>5. Opciones frescas y prácticas</h3>
+              <p>
+                Los alimentos frescos, congelados o en conserva pueden ayudar a
+                tener más opciones. Compara etiquetas y considera el sodio y los
+                azúcares añadidos en productos empacados.
+              </p>
+            </article>
+            <article class="rule-card reveal">
+              <h3>6. Planificación sencilla</h3>
+              <p>
+                Elige algunas recetas para la semana, reutiliza ingredientes y
+                prepara porciones que puedas guardar de forma segura. Así puedes
+                ahorrar tiempo y reducir el desperdicio.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="info-banner">
+        <div class="container banner-box reveal">
+          <div>
+            <span class="eyebrow light">Perspectiva informativa</span>
+            <h2>Una guía para inspirarte, no una dieta única para todas las personas.</h2>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="faq-section">
+        <div class="container">
+          <div class="section-heading center">
+            <span class="eyebrow">Preguntas frecuentes</span>
+            <h2>Respuestas rápidas sobre alimentos vegetales</h2>
+          </div>
+
+          <div class="faq-list">
+            <div class="faq-item reveal">
+              <button class="faq-question">¿Qué son los alimentos de origen vegetal?</button>
+              <div class="faq-answer">
+                <p>Son alimentos que provienen de plantas, como verduras, frutas, legumbres, cereales, frutos secos, semillas y sus derivados. Una alimentación vegetal puede incluir distintos grados de alimentos de origen animal o excluirlos, según la elección de cada persona.</p>
+              </div>
+            </div>
+            <div class="faq-item reveal">
+              <button class="faq-question">¿Las legumbres aportan proteína?</button>
+              <div class="faq-answer">
+                <p>Sí. Fríjoles, lentejas, garbanzos y arvejas contienen proteína vegetal y también pueden aportar fibra. Se pueden combinar con otros alimentos vegetales a lo largo del día para sumar variedad.</p>
+              </div>
+            </div>
+            <div class="faq-item reveal">
+              <button class="faq-question">¿Los alimentos vegetales siempre son saludables?</button>
+              <div class="faq-answer">
+                <p>No necesariamente. Hay productos vegetales muy procesados que pueden tener bastante sodio, azúcares añadidos o grasas. Conviene revisar la etiqueta y basar la alimentación en una variedad de alimentos que se ajusten a tus necesidades.</p>
+              </div>
+            </div>
+            <div class="faq-item reveal">
+              <button class="faq-question">¿Esta guía reemplaza el consejo de un profesional?</button>
+              <div class="faq-answer">
+                <p>No. Es información general y educativa, no un plan de alimentación personalizado ni un diagnóstico. Si tienes necesidades especiales o una condición de salud, consulta con un profesional de la salud o nutrición.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="contact-section">
+        <div class="container contact-grid">
+          <div class="contact-copy reveal">
+            <span class="eyebrow">Contacto directo</span>
+            <h2>¿Tienes una consulta? Estamos para atenderte</h2>
+            <p>
+              Verde Vital es una guía informativa independiente sobre alimentos
+              vegetales. Puedes comunicarte por teléfono, correo o WhatsApp. El
+              contenido es educativo y no sustituye orientación profesional
+              individual.
+            </p>
+            <ul>
+              <li><strong>Responsable:</strong> Roberto Antonio Mangones Navarro</li>
+              <li><strong>NIT:</strong> 72.182.428-1</li>
+              <li><strong>Dirección:</strong> Calle 22 #12-16 este, Villavicencio, Meta</li>
+            </ul>
+          </div>
+          <div class="contact-card contact-methods reveal" aria-label="Canales de contacto">
+            <h3>Canales de contacto</h3>
+            <a class="contact-method" href="tel:+573052150157">
+              <i class="fa-solid fa-phone" aria-hidden="true"></i>
+              <span><strong>Llámanos</strong><small>+57 305 2150157</small></span>
+            </a>
+            <a class="contact-method" href="mailto:contacto.verdevital@gmail.com">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              <span><strong>Escríbenos</strong><small>contacto.verdevital@gmail.com</small></span>
+            </a>
+            <a
+              class="btn btn-primary contact-whatsapp"
+              href="https://wa.me/573052150157?text=Hola%2C%20tengo%20una%20consulta%20sobre%20la%20gu%C3%ADa%20Verde%20Vital."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+              Contactar por WhatsApp
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="index.html" class="brand footer-brand">
+            <div class="brand-mark">V</div>
+            <div>
+              <strong>Verde Vital</strong>
+              <span>Guía de alimentación</span>
+            </div>
+          </a>
+          <p>
+            Información general para descubrir alimentos vegetales y disfrutar
+            comidas variadas.
+          </p>
+        </div>
+
+        <div>
+          <h4>Temas de la guía</h4>
+          <ul>
+            <li><a href="#verduras">Verduras y hortalizas</a></li>
+            <li><a href="#frutas">Frutas</a></li>
+            <li><a href="#legumbres">Legumbres</a></li>
+            <li><a href="#cereales">Cereales integrales</a></li>
+            <li><a href="#frutos-secos">Frutos secos y semillas</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Para orientarte</h4>
+          <ul>
+            <li><a href="#ideas">Ideas prácticas</a></li>
+            <li><a href="#faq">Preguntas frecuentes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li>Información general, no personalizada</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Enlaces legales</h4>
+          <ul>
+            <li><a href="terminos-condiciones.html">Términos y condiciones</a></li>
+            <li><a href="politica-privacidad.html">Política de privacidad</a></li>
+            <li><a href="tratamiento-datos.html">Tratamiento de datos</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> Verde Vital. Guía informativa.</span>
+        <span>Responsable: Roberto Antonio Mangones Navarro</span>
+      </div>
+    </footer>
+
+    <a
+      href="https://wa.me/573052150157?text=Hola%2C%20tengo%20una%20consulta%20sobre%20la%20gu%C3%ADa%20Verde%20Vital."
+      class="whatsapp-float"
+      aria-label="Contactar a Verde Vital por WhatsApp"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
